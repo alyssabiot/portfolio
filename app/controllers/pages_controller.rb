@@ -8,6 +8,10 @@ class PagesController < ApplicationController
   end
 
   def skills
+    @skills = ["Ruby", "Ruby on Rails", "HTML", "CSS", "Javascript", "jQuery",
+              "Ajax", "PostgreSQL", "MySQL", "Git", "GitHub", "Heroku", "AWS",
+              "S3", "Docker", "React", "API", "Rspec"]
+
   end
 
   def contact

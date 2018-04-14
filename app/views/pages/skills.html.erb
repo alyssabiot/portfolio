@@ -1,3 +1,7 @@
 <div id="skills">
-  SKILLS
+  <ul class="list-unstyled list-inline">
+    <% @skills.each do |skill| %>
+      <li class="skill-btn"><%= skill %></li>
+    <% end  %>
+  </ul>
 </div>
