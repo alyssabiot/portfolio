@@ -3,3 +3,15 @@
 // @import "dashboard";
 // @import "profile";
 // @import "map";
+
+body {
+  background-color: white;
+}
+
+a {
+  color: inherit;
+  &:hover {
+    color: violet;
+    text-decoration: none;
+  }
+}
